@@ -63,6 +63,21 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontSize: {
+				'hero': 'var(--text-hero)',
+				'display': 'var(--text-xl)',
+				'heading': 'var(--text-lg)',
+				'body': 'var(--text-base)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'medium': 'var(--shadow-medium)',
+				'large': 'var(--shadow-large)'
+			},
+			backgroundImage: {
+				'gradient-subtle': 'var(--gradient-subtle)',
+				'gradient-card': 'var(--gradient-card)'
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
